@@ -8,8 +8,12 @@
 Please see my CSDN blog: http://blog.csdn.net/johnwcheung/article/details/50388645
 
 ##Screenrecord##
-
-
+Home Page<br><br>
+<img src="https://github.com/coderJohnZhang/TvLauncher/blob/master/screenrecord/screenshot.png" width="600"><br><br><br>
+UI operation<br><br>
+<img src="https://github.com/coderJohnZhang/TvLauncher/blob/master/screenrecord/Android%20TV_0.gif" width="600"><br><br><br>
+<img src="https://github.com/coderJohnZhang/TvLauncher/blob/master/screenrecord/Android%20TV_1.gif" width="600"><br><br><br>
+<img src="https://github.com/coderJohnZhang/TvLauncher/blob/master/screenrecord/Android%20TV_2.gif" width="600"><br><br><br>
 
 ##About me##
 Email: coder.john.cheung@gmail.com<br><br>
