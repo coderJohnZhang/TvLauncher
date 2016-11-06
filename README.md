@@ -1,7 +1,7 @@
 # [TvLauncher](https://github.com/coderJohnZhang/TvLauncher)#
 
 ## Introduction ##
-1. A TvLauncher UI use ViewPager+Fragment, like win8 style, including several specially good effect CustomView, such as`FlyBorderView`, PosterView, `ReflectView`, `RippleLayout`, TextImageView and so on. <br>
+1. A TV Launcher UI use ViewPager+CustomView, like win8 style, including several specially good effect CustomWidget, such as `FlyBorderView`, PosterView, `ReflectView`, `RippleLayout`, TextImageView and so on. <br>
 2. Also it defines some animation effects and  functional utils.
 
 ##Details##
