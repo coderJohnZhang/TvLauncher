@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="publicplatlib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/publicplatlib.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

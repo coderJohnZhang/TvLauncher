@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content">
+
+    <GridView
+        android:id="@+id/app_gridview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:horizontalSpacing="@dimen/grid_h"
+        android:listSelector="@color/transparent"
+        android:numColumns="4"
+        android:verticalSpacing="@dimen/grid_v"/>
+
+    <com.gotech.tv.launcher.view.FlyBorderView
+        android:id="@+id/flyBorder_view"
+        android:layout_width="@dimen/appborder_w"
+        android:layout_height="@dimen/appborder_h"
+        android:background="@drawable/item_highlight"
+        android:visibility="invisible"/>
+
+</FrameLayout><!-- From: file:/C:/Users/Administrator/Desktop/TvLauncher/res/layout/app_grid.xml -->

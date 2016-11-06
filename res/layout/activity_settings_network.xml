@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:myapp="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/bg_screen">
+
+    <LinearLayout
+        android:id="@+id/linear_title"
+        android:layout_width="match_parent"
+        android:layout_height="80dip"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="100dip"
+        android:layout_marginTop="50dip"
+        android:gravity="left"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/arrow_left"/>
+
+        <TextView
+            android:id="@+id/text_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dip"
+            android:text="@string/str_network"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_large"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/linear_title"
+        android:layout_marginBottom="80dip"
+        android:layout_marginLeft="130dip"
+        android:layout_marginRight="130dip"
+        android:layout_marginTop="10dip"
+        android:background="@drawable/color_frame_halftrans_bg"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="900dp"
+            android:layout_height="60dip"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="20dip"
+            android:layout_marginRight="20dip"
+            android:layout_marginTop="20dip"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dip"
+                android:layout_weight="1"
+                android:gravity="start"
+                android:text="@string/str_automatic_configuration"
+                android:textSize="@dimen/text_size_normal"/>
+
+            <Button
+                android:id="@+id/setting_atuo_bt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/switcher_on"
+                android:gravity="end"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/myPanel"
+            android:layout_width="900dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dip"
+            android:layout_marginRight="20dip"
+            android:layout_marginTop="10dip"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <com.gotech.tv.launcher.view.SettingItemView
+                android:id="@+id/ip_item"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/menu_back"
+                myapp:name="@string/str_ip_address"/>
+
+            <com.gotech.tv.launcher.view.SettingItemView
+                android:id="@+id/mask_item"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/menu_gray"
+                myapp:name="@string/str_network_mask"/>
+
+            <com.gotech.tv.launcher.view.SettingItemView
+                android:id="@+id/dns_item"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/menu_back"
+                myapp:name="@string/str_dns"/>
+
+            <com.gotech.tv.launcher.view.SettingItemView
+                android:id="@+id/gateway_item"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/menu_gray"
+                myapp:name="@string/str_gateway"/>
+
+            <com.gotech.tv.launcher.view.SettingItemView
+                android:id="@+id/mac_item"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/menu_back"
+                myapp:name="@string/str_mac"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_save"
+            android:layout_width="125dp"
+            android:layout_height="60dip"
+            android:layout_gravity="center_vertical|end"
+            android:layout_marginRight="60dip"
+            android:layout_marginTop="10dip"
+            android:background="@drawable/setting_btn_selector"
+            android:gravity="center"
+            android:text="@string/str_save"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_normal"
+            android:visibility="gone"/>
+    </LinearLayout>
+
+</RelativeLayout>

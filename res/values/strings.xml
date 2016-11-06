@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Main -->
+    <string name="app_name">TvLauncher</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="main_app_wait_develop">Coming soon</string>
+    <string name="main_app_open_error">Failed to open the app</string>
+
+    <!-- Home -->
+    <string name="home">Home</string>
+    <string name="tv">TV</string>
+    <string name="about">Social</string>
+    <string name="edu">China Edu</string>
+    <string name="movie">Movie Player</string>
+    <string name="search">Search</string>
+    <string name="update">Dumpster</string>
+    <string name="game">Handle Game</string>
+
+    <!-- Application -->
+    <string name="application">Application</string>
+    <string name="move_button">Move button</string>
+    <string name="uninstall_button">Uninstall button</string>
+    <string name="move">Move</string>
+    <string name="uninstall">Uninstall</string>
+    <string name="open">Open</string>
+
+    <!-- Home @Movie -->
+    <string name="movie_time">Show&#160;Time:&#160;%1$d.%2$d.%3$d</string>
+    <string name="movie_page_pointer">Page&#160;:&#160;&#160;&lt;&lt;&#160;%1$d/%2$d&#160;&gt;&gt;</string>
+
+    <!-- Settings -->
+    <string name="str_network">Network</string>
+    <string name="str_software_update">Software Update</string>
+    <string name="str_advanced">Advanced</string>
+    <string name="str_common">Common</string>
+    <string name="str_information">Information</string>
+    <string name="str_quick_setup">Quick Setup</string>
+
+    <!-- Settings @Common -->
+    <string name="STR_GMT">GMT</string>
+    <string name="STR_Local">Local</string>
+    <string name="str_time">Time Settings</string>
+    <string name="STR_AREA">Area Settings</string>
+    <string name="STR_TIME_ZONE">Time Zone</string>
+    <string name="STR_SUMMER_TIME">Summer Time</string>
+    <string name="str_on">ON</string>
+    <string name="str_off">OFF</string>
+    <string name="str_yes">Yes</string>
+    <string name="str_no">No</string>
+    <string name="str_auto">Auto</string>
+    <string name="STR_LEFT_AREA">Left Position</string>
+    <string name="STR_TOP_AREA">Top Position</string>
+    <string name="STR_RIGHT_AREA">Right Position</string>
+    <string name="STR_BOTTOM_AREA">Bottom Position</string>
+    <string name="STR_ZOOM_OUT">Zoom Out</string>
+    <string name="STR_ZOOM_IN">Zoom In</string>
+    <string name="STR_RESET">Reset</string>
+
+    <!-- Settings @Network -->
+    <string name="str_ip_address">Ip Address</string>
+    <string name="str_gateway">Gateway</string>
+    <string name="str_network_mask">Network Mask</string>
+    <string name="str_dns">DNS</string>
+    <string name="str_mac">MAC</string>
+    <string name="str_automatic_configuration">Automatic Configuration</string>
+    <string name="str_device_enable">Device Eable</string>
+    <string name="str_save">Save</string>
+    <string name="public_tips">Tips</string>
+    <string name="public_sure">OK</string>
+
+    <!-- Settings @Information -->
+    <string name="str_bt_clearcache">Clear Cache</string>
+    <string name="str_bt_importlog">Export Log</string>
+    <string name="str_bt_updateip">Change Server IP</string>
+    <string name="str_bt_finduserid">Find User ID</string>
+    <string name="str_sys_info">System information</string>
+    <string name="str_sys_info_systemversion">System version:</string>
+    <string name="str_sys_info_softversion">Software version:</string>
+    <string name="str_sys_info_softtype">Software type:</string>
+    <string name="str_sys_info_serverip">Server IP:</string>
+    <string name="str_sys_info_mac">Mac Address:</string>
+    <string name="str_sys_info_usergroup">User Group:</string>
+    <string name="str_sys_info_ddr">DDR Memory:</string>
+    <string name="str_sys_info_systemspace">System Space:</string>
+    <string name="str_sys_info_programspace">Program Space:</string>
+    <string name="str_sys_info_definespace">Define Space:</string>
+    <string name="str_sys_info_userid">User ID:</string>
+    <string name="str_sys_info_client">SN:</string>
+    <string name="str_sys_info_finding">Finding...</string>
+    <string name="str_sys_info_user_no_reg">NO Registration!</string>
+    <string name="str_sys_info_find_id">Congratuation, find your ID back!</string>
+    <string name="str_sys_info_begin_import_log">Start</string>
+    <string name="str_sys_info_exporting">Exporting...</string>
+
+    <!-- Settings @ Software Update -->
+    <string name="str_soft_update">Upgrade</string>
+    <string name="str_soft_update_bt_online">Online upgrade</string>
+    <string name="str_soft_update_bt_local">Locale upgrade</string>
+    <string name="str_soft_update_bt_usb">Usb upgrade</string>
+    <string name="str_soft_update_bt_firmware">Firmware upgrade</string>
+    <string name="str_soft_update_title">Help</string>
+    <string name="str_soft_update_cotent">\nUpgrade notes：\n\n1.Do not power off during the upgrade process.\n\n2.Accidents during the upgrade process and can not enter the system, please reset the system by SD card.\n</string>
+
+</resources>

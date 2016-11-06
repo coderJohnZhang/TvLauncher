@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="rippleLayout">
+        <attr name="color" format="color" />
+        <attr name="strokeWidth" format="dimension" />
+        <attr name="radius" format="dimension" />
+        <attr name="duration" format="integer" />
+        <attr name="rippleNums" format="integer" />
+        <attr name="scale" format="float" />
+    </declare-styleable>
+    
+    <declare-styleable name="poster">
+        <attr name="icon" format="reference" />
+        <attr name="iconW" format="dimension" />
+        <attr name="iconH" format="dimension" />
+        <attr name="text" format="reference|string" />
+        <attr name="textColor" format="color" />
+        <attr name="textSize" format="dimension" />
+        <attr name="background" format="reference" />
+    </declare-styleable>
+    
+    <declare-styleable name="settingItem">
+        <attr name="name" format="reference|string" />
+        <attr name="value" format="reference|string" />
+    </declare-styleable>
+
+    <declare-styleable name="PageIndicator">
+        <attr name="indicator_spacing" format="dimension" />
+        <attr name="indicator_type" format="enum">
+            <enum name="circle" value="0" />
+            <enum name="fraction" value="1" />
+        </attr>
+    </declare-styleable>
+
+</resources>

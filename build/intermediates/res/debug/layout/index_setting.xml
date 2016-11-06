@@ -1,0 +1,126 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:myapp="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/settingTitle_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/applayout_marginleft">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/appicon_margin"
+            android:contentDescription="@null"
+            android:scaleType="matrix"
+            android:src="@drawable/icon_setbtn_normal"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/apptext_margintop"
+            android:gravity="center"
+            android:text="@string/action_settings"
+            android:textColor="@color/white"
+            android:textSize="@dimen/title_size"/>
+    </LinearLayout>
+
+    <com.gotech.tv.launcher.view.PosterView
+        android:id="@+id/myview1"
+        android:layout_width="@dimen/settingpage_big_width"
+        android:layout_height="@dimen/settingpage_big_height"
+        android:layout_alignLeft="@+id/settingTitle_bar"
+        android:layout_below="@+id/settingTitle_bar"
+        android:layout_marginTop="@dimen/apppager_margintop"
+        android:background="@drawable/page_item_selection"
+        myapp:background="@drawable/mainmenu_colorboard_blue"
+        myapp:icon="@drawable/icons_setting_networksetting"
+        myapp:iconH="@dimen/menu_icon_height"
+        myapp:iconW="@dimen/menu_icon_width"
+        myapp:text="@string/str_network"
+        myapp:textColor="@color/white"
+        myapp:textSize="@dimen/settingpage_fontsize"/>
+
+    <com.gotech.tv.launcher.view.PosterView
+        android:id="@+id/myview2"
+        android:layout_width="@dimen/settingpage_medium_width"
+        android:layout_height="@dimen/settingpage_small_height"
+        android:layout_alignTop="@+id/myview1"
+        android:layout_marginLeft="@dimen/settingpage_left_margin"
+        android:layout_toRightOf="@+id/myview1"
+        android:background="@drawable/page_item_selection"
+        myapp:background="@drawable/mainmenu_colorboard_lightgreen"
+        myapp:icon="@drawable/icons_setting_softwareupdate"
+        myapp:iconH="@dimen/menu_icon_height"
+        myapp:iconW="@dimen/menu_icon_width"
+        myapp:text="@string/str_software_update"
+        myapp:textColor="@color/white"
+        myapp:textSize="@dimen/settingpage_fontsize"/>
+
+    <com.gotech.tv.launcher.view.PosterView
+        android:id="@+id/myview3"
+        android:layout_width="@dimen/settingpage_medium_width"
+        android:layout_height="@dimen/settingpage_medium_height"
+        android:layout_alignTop="@+id/myview2"
+        android:layout_marginLeft="@dimen/settingpage_left_margin"
+        android:layout_toRightOf="@+id/myview2"
+        android:background="@drawable/page_item_selection"
+        myapp:background="@drawable/mainmenu_colorboard_green"
+        myapp:icon="@drawable/icons_setting_advanced"
+        myapp:iconH="@dimen/menu_icon_height"
+        myapp:iconW="@dimen/menu_icon_width"
+        myapp:text="@string/str_advanced"
+        myapp:textColor="@color/white"
+        myapp:textSize="@dimen/settingpage_fontsize"/>
+
+    <com.gotech.tv.launcher.view.PosterView
+        android:id="@+id/myview4"
+        android:layout_width="@dimen/settingpage_small_width"
+        android:layout_height="@dimen/settingpage_small_height"
+        android:layout_alignLeft="@+id/myview2"
+        android:layout_below="@+id/myview2"
+        android:layout_marginTop="@dimen/settingpage_top_margin"
+        android:background="@drawable/page_item_selection"
+        myapp:background="@drawable/mainmenu_colorboard_yellow"
+        myapp:icon="@drawable/icons_setting_common"
+        myapp:iconH="@dimen/menu_icon_height"
+        myapp:iconW="@dimen/menu_icon_width"
+        myapp:text="@string/str_common"
+        myapp:textColor="@color/white"
+        myapp:textSize="@dimen/settingpage_fontsize"/>
+
+    <com.gotech.tv.launcher.view.PosterView
+        android:id="@+id/myview5"
+        android:layout_width="@dimen/settingpage_small_width"
+        android:layout_height="@dimen/settingpage_small_height"
+        android:layout_alignTop="@+id/myview4"
+        android:layout_marginLeft="@dimen/settingpage_left_margin"
+        android:layout_toRightOf="@+id/myview4"
+        android:background="@drawable/page_item_selection"
+        myapp:background="@drawable/mainmenu_colorboard_purple"
+        myapp:icon="@drawable/icons_setting_information"
+        myapp:iconH="@dimen/menu_icon_height"
+        myapp:iconW="@dimen/menu_icon_width"
+        myapp:text="@string/str_information"
+        myapp:textColor="@color/white"
+        myapp:textSize="@dimen/settingpage_fontsize"/>
+
+    <com.gotech.tv.launcher.view.PosterView
+        android:id="@+id/myview6"
+        android:layout_width="@dimen/settingpage_small_width"
+        android:layout_height="@dimen/settingpage_small_height"
+        android:layout_alignTop="@+id/myview5"
+        android:layout_marginLeft="@dimen/settingpage_left_margin"
+        android:layout_toRightOf="@+id/myview5"
+        android:background="@drawable/page_item_selection"
+        myapp:background="@drawable/mainmenu_colorboard_red"
+        myapp:icon="@drawable/icons_setting_quicksetup"
+        myapp:iconH="@dimen/menu_icon_height"
+        myapp:iconW="@dimen/menu_icon_width"
+        myapp:text="@string/str_quick_setup"
+        myapp:textColor="@color/white"
+        myapp:textSize="@dimen/settingpage_fontsize"/>
+
+</RelativeLayout><!-- From: file:/C:/Users/Administrator/Desktop/TvLauncher/res/layout/index_setting.xml -->

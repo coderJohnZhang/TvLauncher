@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout android:id="@+id/common_setting_page"
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/bg_screen">
+
+    <com.starview.tv.view.TextImageView
+        android:id="@+id/textViewSettingsHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="@dimen/menu_title_margin_left"
+        android:layout_marginTop="50dip"
+        android:gravity="center_vertical"/>
+
+    <LinearLayout
+        android:id="@+id/layout_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewSettingsHeader"
+        android:layout_marginLeft="130dip"
+        android:layout_marginRight="130dip"
+        android:layout_marginTop="20dip"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/info_btn_bottom">
+
+        <Button
+            android:id="@+id/setting_clear_cache_bt"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:background="@drawable/sys_info_btn_selector"
+            android:text="@string/str_bt_clearcache"
+            android:textColor="@color/white"
+            android:textSize="24sp"/>
+
+        <Button
+            android:id="@+id/setting_export_log_bt"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="15dp"
+            android:layout_weight="1"
+            android:background="@drawable/sys_info_btn_selector"
+            android:text="@string/str_bt_importlog"
+            android:textColor="@color/white"
+            android:textSize="24sp"/>
+
+        <Button
+            android:id="@+id/setting_change_serverip_bt"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="15dp"
+            android:layout_weight="1"
+            android:background="@drawable/sys_info_btn_selector"
+            android:text="@string/str_bt_updateip"
+            android:textColor="@color/white"
+            android:textSize="24sp"/>
+
+        <Button
+            android:id="@+id/setting_find_user_bt"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="15dp"
+            android:layout_weight="1"
+            android:background="@drawable/sys_info_btn_selector"
+            android:text="@string/str_bt_finduserid"
+            android:textColor="@color/white"
+            android:textSize="24sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layout_btn"
+        android:layout_marginLeft="130dip"
+        android:layout_marginRight="130dip"
+        android:layout_marginTop="1dip"
+        android:background="@drawable/color_frame_halftrans_bg"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/my_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dip"
+            android:layout_marginLeft="40dip"
+            android:layout_marginRight="40dip"
+            android:layout_marginTop="10dip"
+            android:gravity="center"
+            android:orientation="vertical"/>
+    </LinearLayout>
+
+</RelativeLayout>

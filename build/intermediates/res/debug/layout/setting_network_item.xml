@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp" >
+
+    <TextView
+        android:id="@+id/nametxt"
+        android:layout_width="600dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="30dip"
+        android:layout_marginStart="30dip"
+        android:gravity="start"
+        android:textColor="@color/white"
+        android:textSize="24dp" />
+
+    <TextView
+        android:id="@+id/namevaluetxt"
+        android:layout_width="250dp"
+        android:layout_height="50dip"
+        android:layout_gravity="center_vertical|end"
+        android:layout_marginEnd="20dip"
+        android:layout_marginRight="20dip"
+        android:gravity="center"
+        android:text="255.255.255.255"
+        android:textColor="@color/gray_black"
+        android:textSize="24dp" />
+
+    <EditText
+        android:id="@+id/editvaluetxt"
+        android:layout_width="250dp"
+        android:layout_height="50dip"
+        android:layout_gravity="center_vertical|end"
+        android:layout_marginEnd="20dip"
+        android:layout_marginRight="20dip"
+        android:background="@drawable/setting_item_selector"
+        android:gravity="center"
+        android:paddingLeft="20dp"
+        android:text="255.255.255.255"
+        android:textColor="@color/white"
+        android:textSize="24dp" />
+
+</merge><!-- From: file:/C:/Users/Administrator/Desktop/TvLauncher/res/layout/setting_network_item.xml -->

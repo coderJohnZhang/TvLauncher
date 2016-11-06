@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/app_color"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:contentDescription="@null"/>
+
+    <ImageView
+        android:id="@+id/app_icon"
+        android:layout_width="@dimen/appicon_width"
+        android:layout_height="@dimen/appicon_height"
+        android:layout_gravity="center"
+        android:contentDescription="@null"/>
+
+    <TextView
+        android:id="@+id/app_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginBottom="@dimen/apptitle_marginbottom"
+        android:textColor="@color/black"/>
+
+</FrameLayout><!-- From: file:/C:/Users/Administrator/Desktop/TvLauncher/res/layout/app_grid_item.xml -->

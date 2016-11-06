@@ -1,0 +1,51 @@
+<resources>
+
+    <!-- Base application theme, dependent on API level. This theme is replaced by AppBaseTheme from res/values-vXX/styles.xml on newer devices. -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!-- Theme customizations available in newer API levels can go in res/values-vXX/styles.xml, while customizations related to backward-compatibility can go here. -->
+    </style>
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="custom_dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <!-- whether has border -->
+        <item name="android:windowIsFloating">true</item>
+        <!-- whether suspend on activity -->
+        <item name="android:windowIsTranslucent">true</item>
+        <!-- whether translucent -->
+        <item name="android:windowNoTitle">true</item>
+        <!-- set whether has title -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!-- set bg transparent -->
+        <item name="android:backgroundDimEnabled">false</item>
+        <!-- set bg fuzzy display -->
+        <item name="android:backgroundDimAmount">0.6</item>
+        <!-- gray -->
+        <item name="android:windowContentOverlay">@null</item>
+        <!-- whether the dialog box with cover -->
+        <item name="android:windowAnimationStyle">@style/dialog_animation</item>
+        <!-- the animation  when entering or popping up -->
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <!-- background color of the cache -->
+        <item name="android:background">@android:color/transparent</item>
+        <!-- os transparent -->
+    </style>
+
+    <style name="dialog_animation" parent="android:Animation">
+        <item name="@android:windowEnterAnimation">@anim/dialog_enter</item>
+        <item name="@android:windowExitAnimation">@anim/dialog_exit</item>
+    </style>
+
+    <style name="custom_switch">
+        <item name="android:track">@drawable/switch_bg</item>
+        <item name="android:thumb">@drawable/image_style_thumb</item>
+        <item name="android:switchTextAppearance">@android:style/TextAppearance.Large</item>
+        <item name="android:thumbTextPadding">10dip</item>
+        <item name="android:switchMinWidth">12dip</item>
+        <item name="android:switchPadding">20dip</item>
+    </style>
+
+</resources>

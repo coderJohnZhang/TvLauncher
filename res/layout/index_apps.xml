@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/title_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/applayout_marginleft">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/appicon_margin"
+            android:contentDescription="@null"
+            android:scaleType="matrix"
+            android:src="@drawable/icon_appbtn_normal"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/apptext_margintop"
+            android:gravity="center"
+            android:text="@string/application"
+            android:textColor="@color/white"
+            android:textSize="@dimen/app_text_size"/>
+    </LinearLayout>
+
+    <com.gotech.tv.launcher.view.PageIndicator
+        android:id="@+id/indicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/apppointer_margintop"
+        android:gravity="center"
+        app:indicator_spacing="@dimen/apppointer_padding"
+        app:indicator_type="fraction"/>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager_app"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title_bar"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="@dimen/apppager_marginleft"
+        android:layout_marginRight="@dimen/apppager_marginright"
+        android:layout_marginTop="@dimen/apppager_margintop"/>
+
+</RelativeLayout>

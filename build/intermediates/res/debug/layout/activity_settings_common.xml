@@ -1,0 +1,200 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@drawable/bg_screen">
+
+    <com.starview.tv.view.TextImageView
+        android:id="@+id/textViewSettingsHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="@dimen/menu_title_margin_left"
+        android:layout_marginTop="30dip"
+        android:gravity="center_vertical"/>
+
+    <LinearLayout
+        android:id="@+id/layoutLeft"
+        android:layout_width="300dip"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textViewSettingsHeader"
+        android:layout_gravity="center"
+        android:layout_marginBottom="90dip"
+        android:layout_marginLeft="90dip"
+        android:layout_marginTop="30dip"
+        android:background="#7f333333"
+        android:gravity="top"
+        android:orientation="vertical">
+
+        <ListView
+            android:id="@+id/listViewSettings"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dip"
+            android:layout_marginTop="10dip"
+            android:listSelector="@drawable/setting_item_selector"
+            android:scrollbars="none">
+        </ListView>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/textViewSettingsHeader"
+        android:layout_marginBottom="90dip"
+        android:layout_marginRight="90dip"
+        android:layout_marginTop="30dip"
+        android:layout_toRightOf="@+id/layoutLeft"
+        android:background="@drawable/color_frame_halftrans_bg"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/textViewSetTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dip"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageViewRightTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/textViewRightTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dip"
+                android:ellipsize="marquee"
+                android:gravity="center"
+                android:singleLine="true"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_normal"/>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/layoutContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textViewSetTitle"
+            android:layout_marginBottom="1dip"
+            android:layout_marginLeft="1dip"
+            android:layout_marginRight="1dip"
+            android:layout_marginTop="30dip"
+            android:orientation="vertical">
+
+            <ListView
+                android:id="@+id/listViewContent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dip"
+                android:layout_marginRight="40dip"
+                android:drawSelectorOnTop="true"
+                android:listSelector="@drawable/item_focus_selector"/>
+
+            <LinearLayout
+                android:id="@+id/layoutTimeClock"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <com.starview.tv.view.CustomeAnalogClock
+                        android:id="@+id/analogClockGMT"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:id="@+id/textViewGMT"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dip"
+                        android:ellipsize="marquee"
+                        android:gravity="center"
+                        android:singleLine="true"
+                        android:text="GMT:Wed, Oct 9 2013, 03:28"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/text_size_small"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <com.starview.tv.view.CustomeAnalogClock
+                        android:id="@+id/analogClockCurrent"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:id="@+id/textViewCurrent"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dip"
+                        android:ellipsize="marquee"
+                        android:gravity="center"
+                        android:singleLine="true"
+                        android:text="Current:Wed, Oct 9 2013, 03:28"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/text_size_small"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layoutBottomColor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="6dip"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <com.starview.tv.view.TextImageView
+                    android:id="@+id/textImageViewRed"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"/>
+
+                <com.starview.tv.view.TextImageView
+                    android:id="@+id/textImageViewGreen"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"/>
+
+                <com.starview.tv.view.TextImageView
+                    android:id="@+id/textImageViewYellow"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"/>
+            </LinearLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+
+</RelativeLayout><!-- From: file:/C:/Users/Administrator/Desktop/TvLauncher/res/layout/activity_settings_common.xml -->

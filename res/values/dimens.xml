@@ -1,0 +1,92 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="title_size">26sp</dimen>
+
+    <!-- Main界面 -->
+    <dimen name="fragbtn_height">136dp</dimen>
+
+    <!-- Home页面 -->
+    <dimen name="tvlayout_marginleft">66dp</dimen>
+    <dimen name="tvicon_margin">1dp</dimen>
+    <dimen name="tvtext_margintop">3dp</dimen>
+    <dimen name="tv_marginleft">66dp</dimen>
+    <dimen name="tv_margintop">36dp</dimen>
+    <dimen name="movie_marginleft">10dp</dimen>
+    <dimen name="edu_marginleft">10dp</dimen>
+    <dimen name="update_marginleft">10dp</dimen>
+    <dimen name="game_margintop">10dp</dimen>
+    <dimen name="hometext_tv_margintop">310dp</dimen>
+    <dimen name="hometext_margintop">130dp</dimen>
+    <dimen name="home_text_size">26sp</dimen>
+    <dimen name="reflect_tv_margintop">5dp</dimen>
+    <dimen name="reflect_game_margintop">5dp</dimen>
+    <dimen name="reflect_search_margintop">5dp</dimen>
+    <dimen name="reflect_about_margintop">5dp</dimen>
+    <dimen name="border_width">260dp</dimen>
+    <dimen name="border_height">300dp</dimen>
+
+    <!-- 应用管理页面 -->
+    <dimen name="applayout_marginleft">116dp</dimen>
+    <dimen name="appicon_margin">6dp</dimen>
+    <dimen name="app_text_size">26sp</dimen>
+    <dimen name="apptext_margintop">8dp</dimen>
+    <dimen name="apppointer_margintop">25dp</dimen>
+    <dimen name="apppointer_padding">5dp</dimen>
+    <dimen name="apptitle_marginbottom">10dp</dimen>
+    <dimen name="appicon_width">66dp</dimen>
+    <dimen name="appicon_height">66dp</dimen>
+    <dimen name="apps_margintop">56dp</dimen>
+    <dimen name="apppager_margintop">10dp</dimen>
+    <dimen name="apppager_marginleft">126dp</dimen>
+    <dimen name="apppager_marginright">126dp</dimen>
+    <dimen name="appmanage_text_size">26sp</dimen>
+    <dimen name="frame_open_margintop">30dp</dimen>
+    <dimen name="frame_move_margintop">30dp</dimen>
+    <dimen name="frame_uninstall_margintop">30dp</dimen>
+    <dimen name="grid_h">30dp</dimen>
+    <dimen name="grid_v">15dp</dimen>
+    <dimen name="appborder_w">229dp</dimen>
+    <dimen name="appborder_h">139dp</dimen>
+
+    <!-- Setting 界面 -->
+    <dimen name="settingpage_big_width">247dp</dimen>
+    <dimen name="settingpage_big_height">417dp</dimen>
+    <dimen name="settingpage_medium_width">375dp</dimen>
+    <dimen name="settingpage_medium_height">203dp</dimen>
+    <dimen name="settingpage_small_width">247dp</dimen>
+    <dimen name="settingpage_small_height">203dp</dimen>
+    <dimen name="settingpage_left_margin">3dp</dimen>
+    <dimen name="settingpage_top_margin">3dp</dimen>
+    <dimen name="settingpage_fontsize">22sp</dimen>
+    <dimen name="menu_icon_height">110dp</dimen>
+    <dimen name="menu_icon_width">110dp</dimen>
+
+    <!-- Setting下Common界面 -->
+    <dimen name="text_size_small">24sp</dimen>
+    <dimen name="text_size_normal">26sp</dimen>
+    <dimen name="text_size_large">36sp</dimen>
+    <dimen name="menu_title_margin_left">80dip</dimen>
+
+    <!-- Setting下Information界面 -->
+    <dimen name="info_btn_bottom">1dp</dimen>
+
+    <!-- Home下电影界面 -->
+    <dimen name="movielayout_marginleft">66dp</dimen>
+    <dimen name="moviepager_marginleft">30dp</dimen>
+    <dimen name="moviepager_margintop">16dp</dimen>
+    <dimen name="moviepager_marginright">36dp</dimen>
+    <dimen name="moviename_marginleft">180dp</dimen>
+    <dimen name="moviename_margintop">36dp</dimen>
+    <dimen name="movietime_marginleft">168dp</dimen>
+    <dimen name="movietime_margintop">136dp</dimen>
+    <dimen name="moviename_textsize">26sp</dimen>
+    <dimen name="movietime_textsize">16sp</dimen>
+    <dimen name="movieicon_margin">6dp</dimen>
+    <dimen name="movietext_margintop">8dp</dimen>
+    <dimen name="movie_text_size">26sp</dimen>
+    <dimen name="movieposter_paddingtop">12dp</dimen>
+
+</resources>

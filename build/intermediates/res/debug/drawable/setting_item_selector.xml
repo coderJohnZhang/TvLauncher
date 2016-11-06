@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/setting_item_focus" android:state_focused="true" android:state_selected="false"/>
+    <item android:drawable="@drawable/setting_item_sel" android:state_focused="false" android:state_selected="true"/>
+    <item android:drawable="@drawable/setting_item_normal" android:state_focused="false" android:state_selected="false"/>
+
+</selector><!-- From: file:/C:/Users/Administrator/Desktop/TvLauncher/res/drawable/setting_item_selector.xml -->

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="sub_menu_setting">
+        <item>@string/str_network</item>
+        <item>@string/str_software_update</item>
+        <item>@string/str_advanced</item>
+        <item>@string/str_common</item>
+        <item>@string/str_information</item>
+        <item>@string/str_quick_setup</item>
+    </string-array>
+    
+    <string-array name="common_settings_list">
+        <item>@string/str_time</item>
+        <item>@string/STR_AREA</item>
+    </string-array>
+    
+     <string-array name="system_time_setting_menu">
+        <item>@string/STR_TIME_ZONE</item>
+        <item>@string/STR_SUMMER_TIME</item>
+    </string-array>
+    
+     <string-array name="summer_time">
+        <item>@string/str_auto</item>
+        <item>@string/str_on</item>
+        <item>@string/str_off</item>
+    </string-array>
+    
+      <string-array name="area_setting">
+        <item>@string/STR_LEFT_AREA</item>
+        <item>@string/STR_TOP_AREA</item>
+        <item>@string/STR_RIGHT_AREA</item>
+        <item>@string/STR_BOTTOM_AREA</item>
+    </string-array>
+
+</resources>

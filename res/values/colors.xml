@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="dodqer_blue">#1c86ee</color>
+    <color name="midnight_blue">#191970</color>
+    <color name="transparent">#00000000</color>
+    <color name="orange">#ffa500</color>
+    <color name="blue">#ff0000ff</color>
+    <color name="green">#ff00ff00</color>
+    <color name="red">#ffff0000</color>
+    <color name="higtlight">#ff0078f0</color>
+    <color name="yellow">#ffffcc00</color>
+    <color name="gray">#C1C1C1</color>
+    <color name="gray_black">#444444</color>
+    <color name="menu_back">#ff2d2c2d</color>
+    <color name="menu_gray">#ff3e3933</color>
+    <color name="gray_white">#c8c8c8</color> 
+
+</resources>
