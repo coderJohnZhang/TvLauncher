@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<selector xmlns:android="http://schemas.android.com/apk/res/android">
-
-    <item android:state_checked="false" android:drawable="@drawable/switch_thumb_unchecked"/>
-    <item android:state_checked="true"  android:drawable="@drawable/switch_thumb_checked"/>
-
-</selector><!-- From: file:/C:/Users/Administrator/Desktop/TvLauncher/res/drawable/image_style_thumb.xml -->

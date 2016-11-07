@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<selector xmlns:android="http://schemas.android.com/apk/res/android">
-
-    <item android:drawable="@drawable/button_yellow" android:state_focused="true"/>
-    <item android:drawable="@drawable/button_gray" android:state_focused="false"/>
-
-</selector><!-- From: file:/C:/Users/Administrator/Desktop/TvLauncher/res/drawable/button_selector.xml -->

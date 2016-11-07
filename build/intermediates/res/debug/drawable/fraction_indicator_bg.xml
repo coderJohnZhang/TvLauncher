@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<shape xmlns:android="http://schemas.android.com/apk/res/android">
-    <solid android:color="@android:color/darker_gray" />
-    <corners android:radius="50dp" />
-</shape><!-- From: file:/C:/Users/Administrator/Desktop/TvLauncher/res/drawable/fraction_indicator_bg.xml -->
