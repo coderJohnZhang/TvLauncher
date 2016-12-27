@@ -77,7 +77,7 @@ public class PageSetting extends BasePage
 
 			case R.id.myview2:
 			{// update
-				//thisActivity.locationPage(com.gotech.tv.launcher.activity.SettingSoftUpateActivity.class, null, true);
+				//thisActivity.locationPage(com.gotech.tv.launcher.activity.SettingSoftUpdateActivity.class, null, true);
 
 				break;
 			}
@@ -104,7 +104,7 @@ public class PageSetting extends BasePage
 
 			case R.id.myview6:
 			{// quick setup
-				//thisActivity.locationPage(com.gotech.tv.launcher.activity.UserGuide.class, null, true);
+				//thisActivity.locationPage(com.gotech.tv.launcher.activity.UserGuideActivity.class, null, true);
 
 				break;
 			}
