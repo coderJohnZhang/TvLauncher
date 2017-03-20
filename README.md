@@ -1,13 +1,16 @@
-# [TvLauncher](https://github.com/coderJohnZhang/TvLauncher)#
+# [TvLauncher](https://github.com/coderJohnZhang/TvLauncher)
 
-## Introduction ##
+## Introduction
+
 1. A TV Launcher UI use ViewPager+CustomView as Main Frame, like win8 style, including several specially good effect CustomWidget, such as `FlyBorderView`, PosterView, `ReflectView`, `RippleLayout`, TextImageView and so on. <br>
 2. Also it defines some animation effects and  functional utils.
 
-##Details##
+##Details
+
 Please see my CSDN blog: http://blog.csdn.net/johnwcheung/article/details/50388645
 
-##Screenrecord##
+##Screenrecord
+
 Home Page<br><br>
 <img src="https://github.com/coderJohnZhang/TvLauncher/blob/master/screenrecord/screenshot.png" width="600"><br><br><br>
 UI operation<br><br>
@@ -15,12 +18,13 @@ UI operation<br><br>
 <img src="https://github.com/coderJohnZhang/TvLauncher/blob/master/screenrecord/Android%20TV_1.gif" width="600"><br><br><br>
 <img src="https://github.com/coderJohnZhang/TvLauncher/blob/master/screenrecord/Android%20TV_2.gif" width="600"><br><br><br>
 
-##About me##
+##About me
+
 Email: coder.john.cheung@gmail.com<br><br>
 CSDN blog: http://blog.csdn.net/johnwcheung<br><br>
 Github: https://github.com/coderJohnZhang/TvLauncher
 
-##License##
+##License
 
 		Copyright 2016 John Cheung
 
