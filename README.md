@@ -22,7 +22,7 @@ UI operation<br><br>
 
 Email: coder.john.cheung@gmail.com<br><br>
 CSDN blog: http://blog.csdn.net/johnwcheung<br><br>
-Github: https://github.com/coderJohnZhang/TvLauncher
+Github: https://github.com/coderJohnZhang
 
 ## License
 
