@@ -10,8 +10,6 @@ import android.net.ConnectivityManager;
 /**
  * 检测网络
  * 
- * @author meto
- * 
  */
 public class NetStateTracker implements Runnable
 {
