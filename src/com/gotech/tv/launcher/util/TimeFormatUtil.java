@@ -34,7 +34,7 @@ public class TimeFormatUtil
 		return time;
 	}
 
-	public static String formatTimeSting(Date time)
+	public static String formatTimeString(Date time)
 	{
 		if (time != null)
 		{
