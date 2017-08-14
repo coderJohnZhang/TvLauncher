@@ -33,10 +33,7 @@ public class Constant
 	
 	/**
 	 * 默认分组号
-	 * 默认：创维,999
-	 * 教育,100
-	 * 浙江酒店,101
-	 * 迈科A10S试产,990
+	 * 默认：创维 999
 	 */
 	public static String MAC_REGISTER_DEFAULT_CODE= "009"; 
 	
