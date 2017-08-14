@@ -6,15 +6,11 @@ import com.gotech.tv.launcher.parser.ParserSet.*;
 public class ServerManager
 {
 	private static final String TAG = ServerManager.class.getSimpleName();
-	private static final String DEFAULT_SERVER = "52.76.92.94";// "54.251.78.165";
+	private static final String DEFAULT_SERVER = "11.11.11.11";
 	private static final int DEFAULT_PORT = 8660;
 
 	/** 基本路径 */
 	private String mBaseUrl = DEFAULT_SERVER;
-
-	// 113.107.234.238（源利IP）,www.yuanlitv1.com
-
-	// 113.105.76.144,www.yuanlitv1.com,www.rtvcdn.com.au（澳洲IP）
 
 	/** 3A端口 **/
 	private int AAAport = DEFAULT_PORT;// 8660 8080
@@ -32,7 +28,7 @@ public class ServerManager
 	private String mLoginRadomCodeUrl;
 
 	/**
-	 * 检测用户是否注册 aaa/setting/checkRegInfoByUserId?userid=zjj20140422133029798
+	 * 检测用户是否注册 aaa/setting/checkRegInfoByUserId?userid=zj20140422133029798
 	 * {"result":0},0表示未注册 1表示已注册
 	 **/
 	private String mcheckUserIsRegUrl;
