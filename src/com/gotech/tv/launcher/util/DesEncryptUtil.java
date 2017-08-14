@@ -10,7 +10,7 @@ public class DesEncryptUtil {
 	Key key;
 	
 	//加密
-	  public String jiaMi(String s,String key){
+	  public String encrypt(String s,String key){
 	    String str = "";
 	    int ch;
 	    if(key.length() == 0){
@@ -32,7 +32,7 @@ public class DesEncryptUtil {
 
 	  } 
 	  //解密
-	  public String jieMi(String s,String key){
+	  public String decode(String s,String key){
 	    String str = "";
 	    int ch;
 	    if(key.length() == 0){
