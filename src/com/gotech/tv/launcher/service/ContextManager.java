@@ -13,7 +13,6 @@ import android.text.TextUtils;
 /**
  * CN:上下文管理者，管理软件相关基本信息，提供基本接口
  * 
- * @author benson
  */
 public class ContextManager
 {
