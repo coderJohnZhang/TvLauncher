@@ -16,71 +16,52 @@
 
 package com.gotech.tv.launcher.util;
 
-import java.io.IOException;
-import java.io.InputStream;
-import java.net.HttpURLConnection;
-import java.net.MalformedURLException;
-import java.net.URL;
-
 import android.content.Context;
 import android.content.pm.PackageManager.NameNotFoundException;
-import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
 import android.os.Build;
 
 /**
  * Class containing some static utility methods.
  */
-public class VersionUtil
-{
-	private VersionUtil()
-	{
-	};
+public class VersionUtil {
+    private VersionUtil() {
+    }
 
-	/**
-	 * 获取软件版本号名称
-	 * 
-	 * @param context
-	 * @return
-	 */
-	public static String getVersionCodeName(Context context)
-	{
-		String versionCode = "";
-		try
-		{
-			// 获取软件版本号，对应AndroidManifest.xml下android:versionCode
-			versionCode = context.getPackageManager().getPackageInfo(context.getPackageName(), 0).versionName;
-		}
-		catch (NameNotFoundException e)
-		{
-			e.printStackTrace();
-		}
-		return versionCode;
-	}
+    /**
+     * 获取软件版本号名称
+     *
+     * @param context
+     * @return
+     */
+    public static String getVersionCodeName(Context context) {
+        String versionCode = "";
+        try {
+            // 获取软件版本号，对应AndroidManifest.xml下android:versionCode
+            versionCode = context.getPackageManager().getPackageInfo(context.getPackageName(), 0).versionName;
+        } catch (NameNotFoundException e) {
+            e.printStackTrace();
+        }
+        return versionCode;
+    }
 
-	public static boolean hasGingerbread()
-	{
-		return Build.VERSION.SDK_INT >= Build.VERSION_CODES.GINGERBREAD;
-	}
+    public static boolean hasGingerbread() {
+        return Build.VERSION.SDK_INT >= Build.VERSION_CODES.GINGERBREAD;
+    }
 
-	public static boolean hasHoneycomb()
-	{
-		return Build.VERSION.SDK_INT >= Build.VERSION_CODES.HONEYCOMB;
-	}
+    public static boolean hasHoneycomb() {
+        return Build.VERSION.SDK_INT >= Build.VERSION_CODES.HONEYCOMB;
+    }
 
-	public static boolean hasHoneycombMR1()
-	{
-		return Build.VERSION.SDK_INT >= Build.VERSION_CODES.HONEYCOMB_MR1;
-	}
+    public static boolean hasHoneycombMR1() {
+        return Build.VERSION.SDK_INT >= Build.VERSION_CODES.HONEYCOMB_MR1;
+    }
 
-	public static boolean hasJellyBean()
-	{
-		return Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN;
-	}
+    public static boolean hasJellyBean() {
+        return Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN;
+    }
 
-	public static boolean hasCreamSandwitch()
-	{
-		return Build.VERSION.SDK_INT >= Build.VERSION_CODES.ICE_CREAM_SANDWICH;
-	}
+    public static boolean hasCreamSandwitch() {
+        return Build.VERSION.SDK_INT >= Build.VERSION_CODES.ICE_CREAM_SANDWICH;
+    }
 
 }

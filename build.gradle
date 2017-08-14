@@ -1,12 +1,12 @@
+apply plugin: 'com.android.application'
 buildscript {
     repositories {
         mavenCentral()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:1.2.3'
+        classpath 'com.android.tools.build:gradle:2.3.3'
     }
 }
-apply plugin: 'android'
 
 dependencies {
     compile fileTree(include: '*.jar', dir: 'libs')
@@ -18,12 +18,13 @@ android {
         Debug {
             keyAlias 'androiddebugkey'
             keyPassword 'android'
-            storeFile file('/home/john/AAA/platform_debug.keystore')
+            storeFile file('platform_debug.keystore')
             storePassword 'android'
         }
     }
+
     compileSdkVersion 21
-    buildToolsVersion '22.0.0'
+    buildToolsVersion '25.0.0'
     sourceSets {
         main {
             manifest.srcFile 'AndroidManifest.xml'
