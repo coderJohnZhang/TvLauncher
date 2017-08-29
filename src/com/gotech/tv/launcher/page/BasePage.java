@@ -55,7 +55,7 @@ public abstract class BasePage {
 
     protected abstract void GetItemTextAndIconsRes();
 
-    protected abstract void setItemTextAndIcons(int i, View viewCurentItem);
+    protected abstract void setItemTextAndIcons(int i, View viewCurrentItem);
 
     protected void initItemView(int i) {
         viewCurentItem = LayoutUtil.getMainMenuCommonView(i, viewParent);

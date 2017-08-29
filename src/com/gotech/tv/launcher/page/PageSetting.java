@@ -40,7 +40,7 @@ public class PageSetting extends BasePage {
     }
 
     @Override
-    protected void setItemTextAndIcons(int i, View viewCurentItem) {
+    protected void setItemTextAndIcons(int i, View viewCurrentItem) {
         if (null != astrItemTexts && astrItemTexts.length >= i) {
             ((PosterView) viewCurentItem).setText(astrItemTexts[i]);
         }
@@ -65,7 +65,6 @@ public class PageSetting extends BasePage {
 
                 case R.id.myview2: {// update
                     //thisActivity.locationPage(com.gotech.tv.launcher.activity.SettingSoftUpdateActivity.class, null, true);
-
                     break;
                 }
 
@@ -88,7 +87,6 @@ public class PageSetting extends BasePage {
 
                 case R.id.myview6: {// quick setup
                     //thisActivity.locationPage(com.gotech.tv.launcher.activity.UserGuideActivity.class, null, true);
-
                     break;
                 }
 

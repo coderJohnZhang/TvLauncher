@@ -114,7 +114,7 @@ public class PageHome extends BasePage implements OnFocusChangeListener, View.On
     }
 
     @Override
-    protected void setItemTextAndIcons(int i, View viewCurentItem) {
+    protected void setItemTextAndIcons(int i, View viewCurrentItem) {
 
     }
 
