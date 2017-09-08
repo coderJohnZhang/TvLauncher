@@ -108,7 +108,7 @@ public class MainActivity extends TvBaseActivity implements OnFocusChangeListene
             @Override
             public void onPageSelected(int arg0) {
 
-                InitMenuBackGround();
+                initMenuBackGround();
 
                 switch (arg0) {
                     case Constant.MENU_HOME:
@@ -197,7 +197,7 @@ public class MainActivity extends TvBaseActivity implements OnFocusChangeListene
 
     }
 
-    public void InitMenuBackGround() {
+    public void initMenuBackGround() {
 
         views[0].setBackgroundResource(R.drawable.icon_homebtn_normal);
         views[1].setBackgroundResource(R.drawable.icon_appbtn_normal);
