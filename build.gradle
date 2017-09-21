@@ -14,15 +14,24 @@ dependencies {
 }
 
 android {
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.TvkeyStore
+        }
+        debug {
+            signingConfig signingConfigs.TvkeyStore
+        }
+    }
     signingConfigs {
-        Debug {
+        TvkeyStore {
             keyAlias 'androiddebugkey'
             keyPassword 'android'
             storeFile file('platform_debug.keystore')
             storePassword 'android'
         }
     }
-
     compileSdkVersion 21
     buildToolsVersion '25.0.0'
     sourceSets {
