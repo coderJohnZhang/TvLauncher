@@ -14,6 +14,14 @@ dependencies {
 }
 
 android {
+    signingConfigs {
+        TvkeyStore {
+            keyAlias 'androiddebugkey'
+            keyPassword 'android'
+            storeFile file('platform_debug.keystore')
+            storePassword 'android'
+        }
+    }
     buildTypes {
         release {
             minifyEnabled false
@@ -22,14 +30,6 @@ android {
         }
         debug {
             signingConfig signingConfigs.TvkeyStore
-        }
-    }
-    signingConfigs {
-        TvkeyStore {
-            keyAlias 'androiddebugkey'
-            keyPassword 'android'
-            storeFile file('platform_debug.keystore')
-            storePassword 'android'
         }
     }
     compileSdkVersion 21
