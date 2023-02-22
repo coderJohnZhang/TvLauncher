@@ -88,7 +88,7 @@ public class ServerManager {
 
         mGetUserIdAndPwdUrl = "http://" + mBaseUrl + ":" + AAAport + "/aaa/setting/retrieveUserInfoByMac?";
 
-        Hotel_GEt_VIDEO_REQURL = "http://" + mBaseUrl + ":" + AAAport + "/aaa/setting/getNewsVidio";
+        Hotel_GEt_VIDEO_REQURL = "http://" + mBaseUrl + ":" + AAAport + "/aaa/setting/getNewsVideo";
 
         checkAndroidVersionUrl = "http://" + mBaseUrl + ":8081/upgrade/version.xml";
 
