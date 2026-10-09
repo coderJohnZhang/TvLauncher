@@ -59,11 +59,13 @@ public class PageSetting extends BasePage {
             switch (v.getId()) {
 
                 case R.id.myview1: {// network
+                    // Network settings; layout activity_settings_network.xml
                     //thisActivity.locationPage(com.gotech.tv.launcher.activity.SettingNetActivity.class, null, true);
                     break;
                 }
 
                 case R.id.myview2: {// update
+                    // Software update; layout activity_settings_softupdate.xml
                     //thisActivity.locationPage(com.gotech.tv.launcher.activity.SettingSoftUpdateActivity.class, null, true);
                     break;
                 }
@@ -76,16 +78,19 @@ public class PageSetting extends BasePage {
                 }
 
                 case R.id.myview4: {// common
+                    // Common settings; layout activity_settings_common.xml
                     //thisActivity.locationPage(com.gotech.tv.launcher.activity.SettingCommonActivity.class, null, true);
                     break;
                 }
 
                 case R.id.myview5: {// information
+                    // System information; layout activity_settings_information.xml
                     //thisActivity.locationPage(com.gotech.tv.launcher.activity.SettingSysInfoActivity.class, null, true);
                     break;
                 }
 
                 case R.id.myview6: {// quick setup
+                    // Quick setup guide; no dedicated layout
                     //thisActivity.locationPage(com.gotech.tv.launcher.activity.UserGuideActivity.class, null, true);
                     break;
                 }

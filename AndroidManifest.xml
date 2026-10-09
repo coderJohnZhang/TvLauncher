@@ -25,12 +25,6 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity
-            android:name="com.gotech.tv.launcher.activity.SettingNetActivity"
-            android:screenOrientation="landscape"/>
-        <activity
-            android:name="com.gotech.tv.launcher.activity.SettingCommonActivity"
-            android:screenOrientation="landscape"/>
 
     </application>
 
